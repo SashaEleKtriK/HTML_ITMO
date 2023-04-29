@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<itmo:LessonsTable xmlns:itmo ="http://www.itmo.ru/xml/lessons">
+	<itmo:item>
+		<itmo:name>C#</itmo:name>
+		<itmo:teacher>Преподаватель 1</itmo:teacher>
+		<itmo:duration>36</itmo:duration>
+		<itmo:begindate>2022-01-01</itmo:begindate>
+		<itmo:enddate>2022-22-01</itmo:enddate>
+		<itmo:reading xmlns:books ="read">
+			<books:item>
+				<books:name> книга дракона </books:name>
+				<books:authors>
+					<books:author1>Джеймс Франко</books:author1>
+					<books:author2>Билл Цукерберг </books:author2>
+				</books:authors>
+			</books:item>
+			<books:item>
+				<books:name> Методичка </books:name>
+				<books:authors>
+					<books:author1>Марк Гейтс</books:author1>
+				</books:authors>
+			</books:item>
+		</itmo:reading>
+	</itmo:item>
+	<itmo:item>
+		<itmo:name>Java</itmo:name>
+		<itmo:teacher>Преподаватель 2</itmo:teacher>
+		<itmo:duration>24</itmo:duration>
+		<itmo:begindate>2022-23-01</itmo:begindate>
+		<itmo:enddate>2022-07-02</itmo:enddate>
+		<itmo:reading xmlns:books ="read">
+			<books:item>
+				<books:name> Методичка </books:name>
+				<books:authors>
+					<books:author1>Марк Гейтс</books:author1>
+				</books:authors>
+			</books:item>
+		</itmo:reading>
+	</itmo:item>
+	<itmo:item>
+		<itmo:name>python</itmo:name>
+		<itmo:teacher>Преподаватель 3</itmo:teacher>
+		<itmo:duration>21</itmo:duration>
+		<itmo:begindate>2022-09-02</itmo:begindate>
+		<itmo:enddate>2022-25-02</itmo:enddate>
+		<itmo:reading xmlns:books ="read">
+			<books:item>
+				<books:name> книга дракона </books:name>
+				<books:authors>
+					<books:author1>Джеймс Франко</books:author1>
+					<books:author2>Билл Цукерберг </books:author2>
+				</books:authors>
+			</books:item>
+			<books:item>
+				<books:name> Методичка </books:name>
+				<books:authors>
+					<books:author1>Марк Гейтс</books:author1>
+				</books:authors>
+			</books:item>
+		</itmo:reading>
+	</itmo:item>
+</itmo:LessonsTable>
+	
+		

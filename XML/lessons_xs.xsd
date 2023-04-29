@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="LessonsTable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="item" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name ="name" type="xs:string"/>
+							<xs:element name ="teacher" type="xs:string"/>
+							<xs:element name="duration" type="xs:int"/>
+							<xs:element name="begindate" type="xs:date"/>
+							<xs:element name="enddate" type="xs:date"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

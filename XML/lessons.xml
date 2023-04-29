@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LessonsTable xmlns="http://tempuri.org/XMLSchema.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd lessons_xs.xsd">
+	<item>
+		<name>C#</name>
+		<teacher>Преподаватель 1</teacher>
+		<duration>36</duration>
+		<begindate>2023-01-01</begindate>
+		<enddate>2022-01-22</enddate>
+	</item>
+	<item>
+		<name>Java</name>
+		<teacher>Преподаватель 2</teacher>
+		<duration>24</duration>
+		<begindate>2022-01-23</begindate>
+		<enddate>2022-02-07</enddate>
+	</item>
+	<item>
+		<name>python</name>
+		<teacher>Преподаватель 3</teacher>
+		<duration>21</duration>
+		<begindate>2022-02-09</begindate>
+		<enddate>2022-02-27</enddate>
+	</item>
+</LessonsTable>
